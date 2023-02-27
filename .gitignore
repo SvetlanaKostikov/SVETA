@@ -1,2 +1,12 @@
-# Project exclude paths=
-/target/
+.idea
+*.iml
+*/target
+*/*/target
+*/*/*/target
+HELP.md
+.mvnw
+.mvn
+mvnw
+mvnw.cmd
+*.iws
+*.ipr
