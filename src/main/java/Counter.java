@@ -6,7 +6,6 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 
 
-import javax.swing.text.html.parser.Parser;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,7 +16,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 
-public class correctBrackets {
+public class Counter {
 
     public static Integer count=0;
     public static List<String> fyleType = new ArrayList<>();
